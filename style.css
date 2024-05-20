@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+#card{
+    border-radius: 5px;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 370px;
+    width: 260px;
+    background-color: white;
+}
+#card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-position: center;
+}
+#card button{
+    margin-top: 60px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+#card h3{
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+#card #Strangers{
+    color: red;
+}
+#card #RequestSent {
+    color: Green;
+}
+#card button.Blue{
+    background-color: blue;
+}
+#card button.Red{
+    background-color: red;
+}
